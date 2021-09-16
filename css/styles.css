@@ -1,0 +1,28 @@
+#container, #row {
+  height: 100vh; }
+
+body {
+  background-color: #157347; }
+
+form {
+  background-color: white;
+  border-radius: 20px; }
+
+.listo {
+  background-color: white;
+  border-radius: 20px;
+  height: 500px; }
+
+.listo p {
+  font-size: 30px; }
+
+input[type=number] {
+  -webkit-appearance: textfield;
+  margin: 0;
+  -moz-appearance: textfield; }
+
+.material-icons.md-50 {
+  font-size: 100px; }
+
+.material-icons.md-green {
+  color: #117a65; }

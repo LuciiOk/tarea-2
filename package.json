@@ -1,0 +1,31 @@
+{
+  "name": "tarea-2",
+  "version": "1.0.0",
+  "description": "Formulario",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "build-css": "node-sass --recursive -o css scss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuciiOk/tarea-2.git"
+  },
+  "keywords": [
+    "formulario"
+  ],
+  "author": "luciano portales",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuciiOk/tarea-2/issues"
+  },
+  "homepage": "https://github.com/LuciiOk/tarea-2#readme",
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "node-sass": "^6.0.1"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.5.6"
+  }
+}

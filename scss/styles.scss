@@ -1,0 +1,39 @@
+$bodyColor: #157347;
+$tamano: 30px;
+$radio: 20px;
+$height: 100vh;
+$heightListo: 500px;
+$icon: 100px;
+$iconColor: rgb(17, 122, 101);
+
+#container, #row {
+    height: $height;
+}
+
+body {
+    background-color: $bodyColor;
+}
+
+form {
+    background-color: white;
+    border-radius: $radio;
+}
+
+.listo {
+    background-color: white;
+    border-radius: $radio;
+    height: $heightListo;
+}
+
+.listo p {
+    font-size: $tamano;
+}
+
+input[type=number] {
+    -webkit-appearance: textfield;
+    margin: 0;
+    -moz-appearance:textfield;
+}
+
+.material-icons.md-50 { font-size: $icon; }
+.material-icons.md-green { color: $iconColor; }

@@ -112,7 +112,7 @@ function validarNumero():boolean {
   
 function validarRut():boolean {
     let re:RegExp = /^[0-9]+[-|‐]{1}[0-9kK]{1}$/;
-    let rut = $('#rut').val()?.toString();
+    let rut:string | any = $('#rut').val()?.toString();
     if (!re.test(rut || '')) {
       $('#rut').removeClass('is-valid');
       $('#rut').addClass('is-invalid');
@@ -125,7 +125,7 @@ function validarRut():boolean {
   
 function validarEmail():boolean {
     let re:RegExp = /^([\da-z_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/;
-    let email = $('#email').val()?.toString();
+    let email:string | any = $('#email').val()?.toString();
     if (!re.test(email || '')) {
       $('#email').removeClass('is-valid');
       $('#email').addClass('is-invalid');

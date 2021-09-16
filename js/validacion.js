@@ -16,18 +16,30 @@ define(["require", "exports"], function (require, exports) {
     }
     exports.validar = validar;
     function validarEnTiempoReal() {
-        $('input[name="curso"]').on('change', validaCheckCursos);
-        $('input[name="lenguajes"]').on('change', validaCheckLenguajes);
-        $('input[name="nivel"]').on('change', validarNivelProgramacio);
-        $('#nombre-completo').on('change', validarNombre);
-        $('#nombre-completo').keyup(validarNombre);
-        $('#email').on('change', validarEmail);
-        $('#email').keyup(validarEmail);
-        $('#telefono').keyup(validarNumero);
-        $('#rut').on('change', validarRut);
-        $('#rut').keyup(validarRut);
-        $('#opinion').on('change', validarOpinion);
-        $('#opinion').keyup(validarOpinion);
+        $('input[name="curso"]')
+            .on('change', validaCheckCursos);
+        $('input[name="lenguajes"]')
+            .on('change', validaCheckLenguajes);
+        $('input[name="nivel"]')
+            .on('change', validarNivelProgramacio);
+        $('#nombre-completo')
+            .on('change', validarNombre);
+        $('#nombre-completo')
+            .keyup(validarNombre);
+        $('#email')
+            .on('change', validarEmail);
+        $('#email')
+            .keyup(validarEmail);
+        $('#telefono')
+            .keyup(validarNumero);
+        $('#rut')
+            .on('change', validarRut);
+        $('#rut')
+            .keyup(validarRut);
+        $('#opinion')
+            .on('change', validarOpinion);
+        $('#opinion')
+            .keyup(validarOpinion);
     }
     exports.validarEnTiempoReal = validarEnTiempoReal;
     function validaCheckCursos() {

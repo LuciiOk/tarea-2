@@ -40,10 +40,10 @@ export function validarEnTiempoReal() {
         .keyup(validarEmail);
     
     $('#telefono')
-        .keyup( validarNumero);
+        .keyup(validarNumero);
 
     $('#rut')
-        .on('change',validarRut);
+        .on('change', validarRut);
     $('#rut')
         .keyup(validarRut);
 

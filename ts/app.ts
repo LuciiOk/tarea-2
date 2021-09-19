@@ -3,7 +3,6 @@ import {validar, validarEnTiempoReal} from './validacion';
 const $:JQueryStatic = jquery;
 
 const form = document.getElementById('formulario');
-
 const curso = $('input[name="curso"]');
 
 curso.on('change', () => {
